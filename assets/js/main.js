@@ -206,9 +206,9 @@
    * Footer
    */
   
-  document.querySelector('.credits').innerHTML = 
-    `<strong>Lee Jia Ren</strong> © ${new Date().getFullYear()} · Built with 
-    <a href="https://bootstrapmade.com/">BootstrapMade</a>`;
+var credit = document.querySelector('.credits');
+credit.innerHTML = 
+  `<strong>Lee Jia Ren</strong> © ${new Date().getFullYear()} · Built with <a href="https://bootstrapmade.com/">BootstrapMade</a>`;
 
   /**
    * Quotes Animation
