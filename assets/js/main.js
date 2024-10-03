@@ -202,6 +202,18 @@
 })();
 
 
+  /**
+   * Footer
+   */
+  
+  document.querySelector('.credits').innerHTML = 
+    `<strong>Lee Jia Ren</strong> © ${new Date().getFullYear()} · Built with 
+    <a href="https://bootstrapmade.com/">BootstrapMade</a>`;
+
+  /**
+   * Quotes Animation
+   */
+
 var textWrapper = document.querySelector('.quote');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -210,7 +222,7 @@ anime.timeline({loop: true})
     targets: '.quote .letter',
     opacity: [0,1],
     easing: "easeInOutQuad",
-    duration: 2250,
+    duration: 1800,
     delay: (el, i) => 150 * (i+1)
   }).add({
     targets: '.quote',
@@ -220,9 +232,3 @@ anime.timeline({loop: true})
     delay: 1000
   });
 
-  /**
-   * Footer
-   */
-  document.querySelector('.credits').innerHTML = 
-    `<strong>Lee Jia Ren</strong> © ${new Date().getFullYear()} · Built with 
-    <a href="https://bootstrapmade.com/">BootstrapMade</a>`;
