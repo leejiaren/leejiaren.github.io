@@ -662,7 +662,7 @@ section,
 }
 
 #hero .hello {
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: 700;
 }
 
@@ -921,10 +921,12 @@ section,
 .portfolio .portfolio-content {
   position: relative;
   overflow: hidden;
+  border: 1px
 }
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+
 }
 
 .portfolio .portfolio-content .portfolio-info {
@@ -998,7 +1000,7 @@ section,
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 40px;
   position: relative;
 }
 
