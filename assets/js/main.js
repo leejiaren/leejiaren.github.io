@@ -206,9 +206,9 @@
    * Footer
    */
   
-var credit = document.querySelector('.credits');
-credit.innerHTML = 
-  `<strong>Lee Jia Ren</strong> © ${new Date().getFullYear()} · Built with <a href="https://bootstrapmade.com/">BootstrapMade</a>`;
+  document.querySelector('.credits').innerHTML = 
+    `<strong><a href="https://github.com/leejiaren/leejiaren.github.io.git">LEE JIA REN</a></strong> © ${new Date().getFullYear()} · Built with 
+    <a href="https://bootstrapmade.com/">BootstrapMade</a>`;
 
   /**
    * Quotes Animation
